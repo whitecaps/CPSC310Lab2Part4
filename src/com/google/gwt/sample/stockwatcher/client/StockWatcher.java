@@ -186,7 +186,8 @@ public class StockWatcher implements EntryPoint {
 
 	 // Add a button to remove this stock from the table.
 	    Button removeStock = new Button("x");
-	    removeStock.addStyleDependentName("remove, hey");
+
+	    removeStock.addStyleDependentName("REMOVE");
 
 	    removeStock.addClickHandler(new ClickHandler(){
 	      public void onClick(ClickEvent event) {
