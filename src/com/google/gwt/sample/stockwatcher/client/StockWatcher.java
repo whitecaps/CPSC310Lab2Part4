@@ -252,9 +252,11 @@ public class StockWatcher implements EntryPoint {
     }
     
  // Display timestamp showing last refresh.
+
     lastUpdatedLabel.setText("Last update : "  + DateTimeFormat.getMediumDateTimeFormat().format(new Date()) + 
     	"Conflict Here Time: UTC"); 
-  
+
+ 
   }
     
     /**
