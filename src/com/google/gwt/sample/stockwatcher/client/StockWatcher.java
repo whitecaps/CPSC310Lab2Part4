@@ -186,7 +186,7 @@ public class StockWatcher implements EntryPoint {
 
 	 // Add a button to remove this stock from the table.
 	    Button removeStock = new Button("x");
-	    removeStock.addStyleDependentName("remove");
+	    removeStock.addStyleDependentName("remove, hey");
 
 	    removeStock.addClickHandler(new ClickHandler(){
 	      public void onClick(ClickEvent event) {
@@ -254,7 +254,7 @@ public class StockWatcher implements EntryPoint {
  // Display timestamp showing last refresh.
 
     lastUpdatedLabel.setText("Last update : "  + DateTimeFormat.getMediumDateTimeFormat().format(new Date()) + 
-    	"Conflict Here Time: UTC"); 
+    	"Conflict Here Time: UTC"+ "Something Here Again"); 
 
  
   }
